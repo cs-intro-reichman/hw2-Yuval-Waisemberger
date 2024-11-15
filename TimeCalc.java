@@ -10,14 +10,14 @@ public class TimeCalc {
 
         int newHours = (totalHours % 24);
         int newminutes = (totalMinutes - (totalHours * 60));
-
+        
         // Program checks whether the new hours and minutes are ones or tens,
 		// and prints '0' if needed.
         if (newHours < 10) {
             if (newminutes < 10) {
                 System.out.println("0" + newHours + ":" + "0" + newminutes);
             } else {
-                System.out.println(newHours + ":" + "0" + newminutes);
+                System.out.println("0" + newHours + ":" + newminutes);
             }
         } else {
             if (newminutes < 10) {
