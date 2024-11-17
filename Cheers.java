@@ -3,7 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
                 String inputWord = args[0].toUpperCase();
                 int number = Integer.parseInt(args[1]);
-                String lettersForAnOrA = "AEFHILMNOR";
+                String lettersForAnOrA = "AEFHILMNORXS";
 
                 for (int i = 0; i < inputWord.length(); i++) {
                         char letter = inputWord.charAt(i);
