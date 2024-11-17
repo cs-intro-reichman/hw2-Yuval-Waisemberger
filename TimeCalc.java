@@ -7,10 +7,9 @@ public class TimeCalc {
 
         int totalMinutes = ((hours * 60) + minutes + minutesToAdd);
         int totalHours = (totalMinutes / 60);
-
         int newHours = (totalHours % 24);
         int newminutes = (totalMinutes - (totalHours * 60));
-        
+
         // Program checks whether the new hours and minutes are ones or tens,
 		// and prints '0' if needed.
         if (newHours < 10) {
